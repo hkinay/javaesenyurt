@@ -23,28 +23,28 @@ public class Main {
         System.out.println(sayi);
         System.out.println(a);
         System.out.println(sayi2);*/
-        System.out.println(ad.toUpperCase());
-        System.out.println(kara);
+       // System.out.println(ad.toUpperCase());
+    //    System.out.println(kara);
 
 //Aritmetik İşleçler
         // +, *, -, /, %
-        double toplam = sayi + sayi2;
+       /* double toplam = sayi + sayi2;
         System.out.println(toplam);
         sayi3 = 45;
         sayi4=35;
         System.out.println(sayi4 + sayi3);
-        System.out.println(45%2);
+        System.out.println(45%2); */
         //Mantıksal Operatörler, İşleçler
 // <,>,<=,>=,==,!=
 
-        System.out.println(sayi4>sayi3);
+       // System.out.println(sayi4>sayi3);
 
         Scanner scn = new Scanner (System.in);
        /* System.out.println("İsim Giriniz : ");
         String h = scn.nextLine();
         System.out.println("Hoşgeldiniz : " + h);*/
-
-        System.out.println("Puanınızı Giriniz : ");
+//KOŞULLAR
+       /* System.out.println("Puanınızı Giriniz : ");
         int puan = scn.nextInt();
         if(puan > 70){
             System.out.println("Tebrikler");
@@ -58,17 +58,13 @@ public class Main {
         else{
             System.out.println("Kaldı");
         }
-
-
+*/
+/*
         System.out.println("Sayı Seçiniz: ");
         int gun = scn.nextInt();
 switch (gun){
-    case 1:
-        System.out.println("Pazartesi");
-        break;
-    case 2:
-        System.out.println("Salı");
-        break;
+    case 1:case 10: case 11: System.out.println("Pazartesi");break;
+    case 2: System.out.println("Salı");break;
     case 3:
         System.out.println("Çarşamba");
         break;
@@ -84,9 +80,21 @@ switch (gun){
     case 7:
         System.out.println("Pazar");
         break;
+    default:
+        System.out.println("İstenilen sayı girilmedi");
 
 }
+int i = 0,cifttoplam = 0 ;
+while(i<10){
+    if (i%2==0){
+        System.out.println(i);
 
+    }
+
+    ++i;
+}*/
+
+if (a>sayi) System.out.println("a küçüktür");
 
 
 
