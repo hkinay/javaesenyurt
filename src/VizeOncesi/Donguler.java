@@ -1,5 +1,7 @@
+package VizeOncesi;
+
 public class Donguler {
-    public static void main(String[] args) {
+    public static void donguFonk() {
         //İçiçe Döngü Nested Loops
         //OUTER
         for (int i = 0;i<10;i = i + 3){
