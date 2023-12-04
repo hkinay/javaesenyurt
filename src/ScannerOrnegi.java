@@ -7,5 +7,6 @@ public class ScannerOrnegi {
         String h = scn.nextLine();
         System.out.println("Hoşgeldiniz : " + h);
 
+
     }
 }

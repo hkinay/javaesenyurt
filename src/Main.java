@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        int z = faktorAlma(5);
+        System.out.println(z);
+/*
         switchCaseornegi();
         Donguler.donguFonk();
         int c = carpim(5,4);
@@ -17,7 +20,19 @@ public class Main {
 
         System.out.println(kokAlma(45));
         System.out.println(usAlma(3,5));
+
+
+ */
           }
+
+    private static int faktorAlma(int z){
+        if (z >= 1){
+            return faktorAlma(z-1) * z;
+        }
+        else
+            return 1;
+    }
+
 
     private static double usAlma(double a, double b) {
         return Math.pow(a,b);
@@ -133,4 +148,5 @@ switch (gun){
 
 }
     }
+
 }
