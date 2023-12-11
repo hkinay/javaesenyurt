@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         int z = faktorAlma(5);
         System.out.println(z);
+        Diziler.yildizlar();
 /*
         switchCaseornegi();
         Donguler.donguFonk();
