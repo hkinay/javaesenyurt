@@ -5,9 +5,14 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        int z = faktorAlma(5);
-        System.out.println(z);
-        Diziler.yildizlar();
+        //Diziler.CokBoyutluDizi();
+        HataYakalama.Istisnalar();
+        HataYakalama.ThrowAtma();
+       // Kasiyer.ParaUstu();
+
+       // int z = faktorAlma(5);
+     //   System.out.println(z);
+       // Diziler.yildizlar();
 /*
         switchCaseornegi();
         Donguler.donguFonk();

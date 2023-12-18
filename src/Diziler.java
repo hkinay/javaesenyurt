@@ -2,11 +2,16 @@ import java.sql.SQLOutput;
 
 public class Diziler {
     public static void diziOrnegi(){
-        String[] cars = {"Volvo", "BMW", "Ford", "Mazda","Suzuki"};
+        String[] cars = {"Volvo", "BMW", "Ford","Mazda","Suzuki"};
         int [] sayilar ={3,4,5,6,7,8,9};
         int sayilar2[] = new int [10] ;
+        //iterable
 
 
+        String cars2 [] = {"Reno","Peco","Vosvagen"};
+
+
+        System.out.println(cars); // CARS ID
 
 
         for (int i = 0; i < cars.length; i++) {
@@ -59,5 +64,28 @@ public class Diziler {
         }
         System.out.println("The sum is: " + sum);
       System.out.println("The square sum is: " + sumSq);
+
     }
+    public static void CokBoyutluDizi(){
+        String [][] Ogrenciler = {{"Ahmet","Kaplan","343434","Konya"},{"Hüseyin","Demir","342324","Gümüşhane"}};
+        System.out.println(Ogrenciler[0][1]);
+        System.out.println(Ogrenciler[1][2]);
+
+
+        int satir = Ogrenciler.length;
+        int sutun = Ogrenciler[0].length;
+
+        for (int i = 0; i < satir; i++) {
+            for (int j = 0; j < sutun; j++) {
+                System.out.println(Ogrenciler[i][j]);
+
+            }
+
+        }
+
+
+    }
+
+
+
 }
