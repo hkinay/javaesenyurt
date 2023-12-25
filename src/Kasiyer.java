@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import Veritabani.CONSTANT.*;
 
 public class Kasiyer {
     public static void ParaUstu(){

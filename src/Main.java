@@ -5,30 +5,51 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        //Diziler.CokBoyutluDizi();
-        HataYakalama.Istisnalar();
-        HataYakalama.ThrowAtma();
-       // Kasiyer.ParaUstu();
+        String a = new String();
 
-       // int z = faktorAlma(5);
-     //   System.out.println(z);
-       // Diziler.yildizlar();
-/*
-        switchCaseornegi();
-        Donguler.donguFonk();
-        int c = carpim(5,4);
+        NesneTabanli ikinciobje = new NesneTabanli(3,4,"hasan");
+        ikinciobje.Parametresiz(); // public method nesne oluşturarak kullanılır
+        // ikinciobje.Gizli(); private method farklı sınıftan çağrılamıyor
+
+        NesneTabanli.Nesnesiz(); //static method nesne gerektirmeksizin çağrılabilir
+       /* KOŞULLAR DERSİ METHODLARI
+       switchCaseornegi();
+       kosullar();
+        */
+
+        /* DİZİLER DERSİ METHODLARI
+        Diziler.CokBoyutluDizi();
+        Kasiyer.ParaUstu();
+        Diziler.yildizlar();
+         */
+
+        /* HATA YAKALAMA DERSİ
+
+        HataYakalama.ThrowAtma();
+         */
+        HataYakalama.Istisnalar();
+
+
+
+
+/* METHODLAR DERSİNİN METHODLARI
+  int z = faktorAlma(5);
+     System.out.println(z);
+         int c = carpim(5,4);
         System.out.println(c);
         merhaba();
         ScannerOrnegi.scannerOrnegi();
-        kosullar();
         int g = carpim(3,4,5);
         System.out.println(g);
-
         System.out.println(kokAlma(45));
         System.out.println(usAlma(3,5));
-
-
  */
+
+        /* DÖNGÜLER DERSİ METHODLARI
+
+         Donguler.donguFonk();
+
+         */
           }
 
     private static int faktorAlma(int z){
@@ -83,7 +104,7 @@ public class Main {
 
 
     }
-static int carpim (int a, int b){
+public static int carpim (int a, int b){
     return a*b;
 }
 
